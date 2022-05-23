@@ -1,1 +1,1 @@
-rootProject.name = "Mootool-Plugin"
+rootProject.name = "Mootool-Idea"
