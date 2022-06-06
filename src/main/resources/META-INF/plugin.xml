@@ -8,14 +8,14 @@
     <name>Mootool-Idea</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="chengchenr@qq.com" url="https://github.com.chengchenrui">YourCompany</vendor>
+    <vendor email="chengchenr@qq.com" url="https://github.com.chengchenrui">air</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+    开发者常用工具集合.<br>
+    <em>1.时间转换工具</em>
   ]]></description>
 
     <!-- Product and plugin compatibility requirements.
@@ -26,6 +26,6 @@
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow id="MootoolWindow" secondary="true" icon="AllIcons.General.Modified" anchor="bottom"
-                    factoryClass="com.ccr.moo.tool.mootoolplugin.form.window.MootoolWindowFactory"/>
+                    factoryClass="com.ccr.moo.tool.ui.form.window.MootoolWindowFactory"/>
     </extensions>
 </idea-plugin>

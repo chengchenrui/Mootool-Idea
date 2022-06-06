@@ -1,4 +1,4 @@
-package com.ccr.moo.tool.mootoolplugin.form.window;
+package com.ccr.moo.tool.ui.form.window;
 
 import com.intellij.openapi.wm.ToolWindow;
 import lombok.Getter;

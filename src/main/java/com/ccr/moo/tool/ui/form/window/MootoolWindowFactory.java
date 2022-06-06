@@ -1,7 +1,7 @@
-package com.ccr.moo.tool.mootoolplugin.form.window;
+package com.ccr.moo.tool.ui.form.window;
 
 import cn.hutool.core.thread.ThreadUtil;
-import com.ccr.moo.tool.mootoolplugin.form.func.TimeConvertForm;
+import com.ccr.moo.tool.ui.form.func.TimeConvertForm;
 import com.formdev.flatlaf.extras.FlatSVGIcon;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.wm.ToolWindow;
